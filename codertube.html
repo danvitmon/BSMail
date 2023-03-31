@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 shrink-to-fit=no"
+    />
+    <title>CoderTube</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="/css/site.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">BS Systems</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html">BS Mail</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/vacations.html">Vacation Rentals</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/codertube.html"
+                  >CoderTube</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-fluid">
+      <!-- Video Cards -->
+      <div class="row row-cols-12">
+        <!-- Icon and Text Sidebar -->
+        <div class="col-lg-2 col-3 d-none d-sm-block my-3">
+          <div class="row mx-1 gy-1 col-12">
+            <button
+              type="button"
+              class="btn-dark text-secondary btn text-start active"
+            >
+              <i class="bi bi-house"></i> Home
+            </button>
+            <button
+              type="button"
+              class="btn-dark text-secondary btn text-start"
+            >
+              <i class="bi bi-play-circle"></i> Shorts
+            </button>
+            <button
+              type="button"
+              class="btn-dark text-secondary btn text-start item"
+            >
+              <i class="bi bi-play-btn"></i> Subscriptions
+            </button>
+            <button
+              type="button"
+              class="btn-dark text-secondary btn text-start gy-3"
+            >
+              <i class="bi bi-book"></i> Library
+            </button>
+            <button
+              type="button"
+              class="btn-dark text-secondary btn text-start item"
+            >
+              <i class="bi bi-clock-history"></i> History
+            </button>
+            <button
+              type="button"
+              class="btn-dark text-secondary btn text-start gy-3"
+            >
+              <i class="bi bi-fire"></i> Trending
+            </button>
+            <button
+              type="button"
+              class="btn-dark text-secondary btn text-start"
+            >
+              <i class="bi bi-music-note"></i> Music
+            </button>
+            <button
+              type="button"
+              class="btn-dark text-secondary btn text-start"
+            >
+              <i class="bi bi-film"></i> Movies & TV
+            </button>
+            <button
+              type="button"
+              class="btn-dark text-secondary btn text-start"
+            >
+              <i class="bi bi-broadcast"></i> Live
+            </button>
+            <button
+              type="button"
+              class="btn-dark text-secondary btn text-start"
+            >
+              <i class="bi bi-controller"></i> Gaming
+            </button>
+            <button
+              type="button"
+              class="btn-dark text-secondary btn text-start"
+            >
+              <i class="bi bi-newspaper"></i> News
+            </button>
+            <button
+              type="button"
+              class="btn-dark text-secondary btn text-start"
+            >
+              <i class="bi bi-trophy"></i> Sports
+            </button>
+            <button
+              type="button"
+              class="btn-dark text-secondary btn text-start"
+            >
+              <i class="bi bi-lightbulb"></i> Learning
+            </button>
+            <button
+              type="button"
+              class="btn-dark text-secondary btn text-start"
+            >
+              <i class="bi bi-handbag"></i> Fashion
+            </button>
+            <button
+              type="button"
+              class="btn-dark text-secondary btn text-start item"
+            >
+              <i class="bi bi-broadcast-pin"></i> Podcasts
+            </button>
+            <button
+              type="button"
+              class="btn-dark text-secondary btn text-start gy-3"
+            >
+            More...
+            </button>
+          </div>
+        </div>
+
+        <!-- Icon Only for Mobile -->
+        <div class="col col-sm-2 d-sm-none">
+          <div class="row mx-1 gy-1 col-sm-4">
+            <button type="button" class="btn-dark text-secondary active btn">
+              <i class="bi bi-house"></i>
+            </button>
+            <button type="button" class="btn-dark text-secondary btn">
+              <i class="bi bi-play-circle"></i>
+            </button>
+            <button type="button" class="btn-dark text-secondary btn item">
+              <i class="bi bi-play-btn"></i>
+            </button>
+            <button type="button" class="btn-dark text-secondary btn gy-3">
+              <i class="bi bi-book"></i>
+            </button>
+            <button type="button" class="btn-dark text-secondary btn item">
+              <i class="bi bi-clock-history"></i>
+            </button>
+            <button type="button" class="btn-dark text-secondary btn gy-3">
+              <i class="bi bi-fire"></i>
+            </button>
+            <button type="button" class="btn-dark text-secondary btn">
+              <i class="bi bi-music-note"></i>
+            </button>
+            <button type="button" class="btn-dark text-secondary btn">
+              <i class="bi bi-film"></i>
+            </button>
+            <button type="button" class="btn-dark text-secondary btn">
+              <i class="bi bi-broadcast"></i>
+            </button>
+            <button type="button" class="btn-dark text-secondary btn">
+              <i class="bi bi-controller"></i>
+            </button>
+            <button type="button" class="btn-dark text-secondary btn">
+              <i class="bi bi-newspaper"></i>
+            </button>
+            <button type="button" class="btn-dark text-secondary btn">
+              <i class="bi bi-trophy"></i>
+            </button>
+            <button type="button" class="btn-dark text-secondary btn">
+              <i class="bi bi-lightbulb"></i>
+            </button>
+            <button type="button" class="btn-dark text-secondary btn">
+              <i class="bi bi-handbag"></i>
+            </button>
+            <button type="button" class="btn-dark text-secondary btn item">
+              <i class="bi bi-broadcast-pin"></i>
+            </button>
+            <button type="button" class="btn-dark text-secondary btn gy-3">
+              More
+            </button>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 col-9 col-lg-10 g-2 my-2">
+          <div class="col my-2">
+            <div class="card">
+              <div class="card-header bg-secondary p-5 text-center">
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title lead text-truncate"><strong>Video Title that keeps going on and on and on and on</strong></h5>
+                <p class="card-text text-truncate">
+                  <small class="text-body-secondary">Channel Name that keeps going on and on and on and on</small>
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >1.2m Views • Uploaded 4 days ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col my-2">
+            <div class="card">
+              <div class="card-header bg-secondary p-5 text-center">
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title lead"><strong>Video Title</strong></h5>
+                <p class="card-text">
+                  <small class="text-body-secondary">Channel Name</small>
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >1.2m Views • Uploaded 4 days ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col my-2">
+            <div class="card">
+              <div class="card-header bg-secondary p-5 text-center">
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title lead"><strong>Video Title</strong></h5>
+                <p class="card-text">
+                  <small class="text-body-secondary">Channel Name</small>
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >1.2m Views • Uploaded 4 days ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col my-2">
+            <div class="card">
+              <div class="card-header bg-secondary p-5 text-center">
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title lead"><strong>Video Title</strong></h5>
+                <p class="card-text">
+                  <small class="text-body-secondary">Channel Name</small>
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >1.2m Views • Uploaded 4 days ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col my-2">
+            <div class="card">
+              <div class="card-header bg-secondary p-5 text-center">
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title lead"><strong>Video Title</strong></h5>
+                <p class="card-text">
+                  <small class="text-body-secondary">Channel Name</small>
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >1.2m Views • Uploaded 4 days ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col my-2">
+            <div class="card">
+              <div class="card-header bg-secondary p-5 text-center">
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title lead"><strong>Video Title</strong></h5>
+                <p class="card-text">
+                  <small class="text-body-secondary">Channel Name</small>
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >1.2m Views • Uploaded 4 days ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col my-2">
+            <div class="card">
+              <div class="card-header bg-secondary p-5 text-center">
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title lead"><strong>Video Title</strong></h5>
+                <p class="card-text">
+                  <small class="text-body-secondary">Channel Name</small>
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >1.2m Views • Uploaded 4 days ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-2">
+            <div class="card">
+              <div class="card-header bg-secondary p-5 text-center">
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title lead"><strong>Video Title</strong></h5>
+                <p class="card-text">
+                  <small class="text-body-secondary">Channel Name</small>
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >1.2m Views • Uploaded 4 days ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col my-2">
+            <div class="card">
+              <div class="card-header bg-secondary p-5 text-center">
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title lead"><strong>Video Title</strong></h5>
+                <p class="card-text">
+                  <small class="text-body-secondary">Channel Name</small>
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >1.2m Views • Uploaded 4 days ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col my-2">
+            <div class="card">
+              <div class="card-header bg-secondary p-5 text-center">
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title lead"><strong>Video Title</strong></h5>
+                <p class="card-text">
+                  <small class="text-body-secondary">Channel Name</small>
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >1.2m Views • Uploaded 4 days ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col my-2">
+            <div class="card">
+              <div class="card-header bg-secondary p-5 text-center">
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title lead"><strong>Video Title</strong></h5>
+                <p class="card-text">
+                  <small class="text-body-secondary">Channel Name</small>
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >1.2m Views • Uploaded 4 days ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col my-2">
+            <div class="card">
+              <div class="card-header bg-secondary p-5 text-center">
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title lead"><strong>Video Title</strong></h5>
+                <p class="card-text">
+                  <small class="text-body-secondary">Channel Name</small>
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >1.2m Views • Uploaded 4 days ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-dark py-3 container-fluid">
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col text-center text-md-start text-secondary">
+          &copy; 2023 Daniel Monastirsky
+        </div>
+        <div class="col text-center text-light lead">CoderTube</div>
+        <div class="col text-center text-md-end">
+          <a href="https://facebook.com" class="text-secondary"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a href="https://instagram.com" class="text-secondary"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a href="https://twitter.com" class="text-secondary"
+            ><i class="bi bi-twitter"></i
+          ></a>
+          <a href="mailto:danvitmon@gmail.com" class="text-secondary"
+            ><i class="bi bi-envelope-at"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

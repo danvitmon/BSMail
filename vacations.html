@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 shrink-to-fit=no"
+    />
+    <title>Vacation Rentals</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="/css/site.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">BS Systems</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html">BS Mail</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/vacations.html"
+                  >Vacation Rentals</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/codertube.html">CoderTube</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-fluid">
+      <h1 class="text-center display-4 my-3">Vacation Packages</h1>
+
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner rounded-3">
+          <div class="carousel-item active">
+            <img src="/img/carousel-1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="/img/carousel-2.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="/img/carousel-3.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="/img/carousel-4.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="row g-2 my-1 row-cols-1 row-cols-sm-2 row-cols-md-4">
+        <div class="col">
+          <div class="card text-center h-100">
+            <div class="card-header text-start lead bg-primary-subtle fs-5">
+              Lake Package
+            </div>
+            <div class="card-body">
+              <h1 class="card-title display-5">$499.99</h1>
+              <p class="card-text">
+                The world renown Coder Foundry Lake Package includes a personal
+                dinner date with Jason. He will take you on a tour around
+                Crystal Lake.
+              </p>
+            </div>
+
+            <div
+              class="card-footer text-body-secondary bg-primary-subtle text-center"
+            >
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col h-100">
+            <div class="card text-center h-100">
+              <div class="card-header text-start lead bg-success-subtle fs-5">
+                Forest Package
+              </div>
+              <div class="card-body">
+                <h1 class="card-title display-5">$399.99</h1>
+                <p class="card-text">
+                  An incredible journey awaits you in our fantastic Forest
+                  Package. Loaded with amazing cabins and beautiful scenery,
+                  this vacation will not disappoint. We are happy to provide
+                  more details on the trip if you fill out our contact form.
+                </p>
+              </div>
+
+              <div
+                class="card-footer text-body-secondary bg-success-subtle text-center"
+              >
+                <a href="#" class="btn btn-success">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col h-100">
+            <div class="card text-center h-100">
+              <div class="card-header text-start lead bg-info-subtle fs-5">
+                Arctic Package
+              </div>
+              <div class="card-body">
+                <h1 class="card-title display-5">$299.99</h1>
+                <p class="card-text">
+                  Coder Foundry is proud to present a new addition to their
+                  vacation packages. The Arctic package brings a new level of
+                  relaxation to your senses. Coder Foundry is proud to present a
+                  new addition to their vacation packages. The Arctic package
+                  brings a new level of relaxation to your senses.
+                </p>
+              </div>
+
+              <div
+                class="card-footer text-body-secondary bg-info-subtle text-center"
+              >
+                <a href="#" class="btn btn-info">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col h-100">
+            <div class="card text-center h-100">
+              <div class="card-header text-start lead bg-warning-subtle fs-5">
+                Desert Package
+              </div>
+              <div class="card-body">
+                <h1 class="card-title display-5">$199.99</h1>
+                <p class="card-text">
+                  Our professionally crafted Mojave Desert excursion includes a
+                  world-class dinner curated by Gordon Ramsey. Our
+                  professionally crafted Mojave Desert excursion includes a
+                  world-class dinner curated by Gordon Ramsey. Our
+                  professionally crafted Mojave Desert excursion includes a
+                  world-class dinner curated by Gordon Ramsey. Our
+                  professionally crafted Mojave Desert excursion includes a
+                  world-class dinner curated by Gordon Ramsey.
+                </p>
+              </div>
+
+              <div
+                class="card-footer text-body-secondary bg-warning-subtle text-center"
+              >
+                <a href="#" class="btn btn-warning">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p>
+        <div class="text-center my-4">
+        <span role="button" class="display-6" data-bs-toggle="collapse"
+            data-bs-target="#testCollapse" >
+            Contact Us
+        </span>
+
+      </p>
+         
+        <div class="collapse" id="testCollapse">
+            <div class="container mb-3">
+            <div class="card card-body">
+            <form action="#">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <label for="FirstName" class="form-label">First Name</label>
+                        <input name="FirstName"
+                                type="text"
+                                aria-label="First Name"
+                                placeholder="First Name"
+                                class="form-control"
+                                required />
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <label for="LastName" class="form-label">Last Name</label>
+                        <input name="LastName"
+                                type="text"
+                                aria-label="Last Name"
+                                placeholder="Last Name"
+                                class="form-control"
+                                required />
+                            </div>
+                    <div class="col-12 col-md-6">
+                        <label for="Email" class="form-label">Email</label>
+                        <input name="Email"
+                                type="email"
+                                aria-label="Email"
+                                placeholder="Email"
+                                class="form-control"
+                                required />
+                            </div>
+                    <div class="col-12 col-md-6">
+                        <label for="Phone" class="form-label">Phone (optional)</label>
+                        <input name="Phone"
+                                type="tel"
+                                aria-label="Phone"
+                                placeholder="Phone"
+                                class="form-control" />
+                            </div>
+                    <div class="col-12">
+                        <label for="Subject" class="form-label">Subject</label>
+                        <input name="Subject"
+                                type="text"
+                                aria-label="Subject"
+                                placeholder="Subject"
+                                class="form-control" 
+                                required />
+                            </div>
+                    <div class="col-12">
+                        <label for="Message" class="form-label">Message</label>
+                            <textarea name="Message"
+                                type="text"
+                                aria-label="Message"
+                                placeholder="Message"
+                                class="form-control"
+                                required 
+                                rows="4">
+                            </textarea>
+                            </div>
+                            <div class="text-center mt-2">
+                                <button type="submit" class="btn btn-primary w-25">Submit</button>
+                            </div>
+                </div>
+            </form>
+        </div>
+        </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark py-3 container-fluid">
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col text-center text-md-start text-secondary">
+          &copy; 2023 Daniel Monastirsky
+        </div>
+        <div class="col text-center text-light lead">
+          Coder Foundrys' Vacation Rentals
+        </div>
+        <div class="col text-center text-md-end">
+          <a href="https://facebook.com" class="text-secondary"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a href="https://instagram.com" class="text-secondary"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a href="https://twitter.com" class="text-secondary"
+            ><i class="bi bi-twitter"></i
+          ></a>
+          <a href="mailto:danvitmon@gmail.com" class="text-secondary"
+            ><i class="bi bi-envelope-at"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

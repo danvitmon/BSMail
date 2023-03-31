@@ -1,0 +1,25 @@
+/* Sticky Footer */
+html,
+body {
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
+
+footer{
+    flex-shrink: 0;
+}
+
+.item{
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(59, 59, 59);
+} 
+
+/* END: Sticky Footer */
